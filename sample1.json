@@ -1,0 +1,46 @@
+{
+    "Airline": [
+      {
+        "Name": "Emirates Airline",
+        "Backpack": "1 bag of 15 lbs (7 kg)",
+        "CabinBag": "1 bag of 15 lbs (7 kg)",
+        "CheckInBags": "2 bag(s) of 50 lbs (23 kg) each"
+      },
+      {
+        "Name": "Etihad Airways",
+        "Backpack": "1 bag of 15 lbs (7 kg)",
+        "CabinBag": "1 bag of 15 lbs (7 kg)",
+        "CheckInBags": "2 bag(s) of 50 lbs (23 kg) each"
+      },
+      {
+        "Name": "American Airlines",
+        "Backpack": "1 bag of 15 lbs (7 kg)",
+        "CabinBag": "1 bag of 15 lbs (7 kg)",
+        "CheckInBags": "2 bag(s) of 50 lbs (23 kg) each"
+      },
+      {
+        "Name": "British Airways",
+        "Backpack": "1 bag of 15 lbs (7 kg)",
+        "CabinBag": "1 bag of 15 lbs (7 kg)",
+        "CheckInBags": "2 bag(s) of 50 lbs (23 kg) each"
+      },
+      {
+        "Name": "Qatar Airways",
+        "Backpack": "1 bag of 15 lbs (7 kg)",
+        "CabinBag": "1 bag of 15 lbs (7 kg)",
+        "CheckInBags": "2 bag(s) of 50 lbs (23 kg) each"
+      },
+      {
+        "Name": "Southwest Airlines",
+        "Backpack": "1 bag of 15 lbs (7 kg)",
+        "CabinBag": "1 bag of 15 lbs (7 kg)",
+        "CheckInBags": "2 bag(s) of 50 lbs (23 kg) each"
+      },
+      {
+        "Name": "Turkish Airlines",
+        "Backpack": "1 bag of 15 lbs (7 kg)",
+        "CabinBag": "1 bag of 15 lbs (7 kg)",
+        "CheckInBags": "2 bag(s) of 50 lbs (23 kg) each"
+      }
+    ]
+ }

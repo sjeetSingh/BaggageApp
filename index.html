@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html ng-app="flightModule">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script type="text/javascript" src="app.js">
+    </script>
+</head>
+
+<body ng-controller="flightController">
+
+<div class="container">
+    <form role="form">
+        <div class="form-group">
+            <label for="airline_name"></label>
+            <input type="text" class="form-control" ng-model="airline_name_id" placeholder="Enter any airline name">
+        </div>
+    </form>
+    <table>
+        <tr>
+            <td><b>Name</b></td>
+            <td><b>Backpack</b></td>
+        </tr>
+        <tr ng-repeat="airlines in members">
+            <td>{{airlines.Name}}</td>
+            <td>{{airlines.Backpack}}</td>
+        </tr>
+    </table>
+    <h2> Name entered is: {{airline_name_id}}</h2>
+
+    <ul ng-show="airline_name_id" ng-repeat="airlines in members | filter:airline_name_id | orderBy: 'name'">
+        <li>Airline is: {{airlines.Name}}</li>
+        <li>Airline is: {{airlines.Backpack}}</li>
+        <li>Airline is: {{airlines.CheckInBags}}</li>
+    </ul>
+</div>
+
+</body>
+
+</html>
